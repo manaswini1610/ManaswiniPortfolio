@@ -1,0 +1,33 @@
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.skills h1 {
+  margin-bottom: 80px;
+  background: linear-gradient(to right, rgb(19, 124, 124), rgb(70, 179, 179), rgb(0, 84, 84));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-size: 55px;
+}
+
+
+
+.imagesWrapper {
+  overflow: hidden; /* Hide overflow to create the infinite scroll effect */
+  width: 90vw;     /* Full viewport width */
+}
+
+.images {
+  display: flex;
+  align-items: center;
+}
+
+.images img {
+  width: 100px;
+  height: auto;
+  margin-right: 80px; /* Adjust margin for spacing between images */
+}

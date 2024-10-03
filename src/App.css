@@ -1,0 +1,104 @@
+@media  screen and (max-width:500px) {
+    .lists {
+        display: none;
+    }
+    .button {
+        display: none;
+    }
+    .profileImage {
+        margin: 0px;
+    }
+    .pointerLeft {
+        display: none;
+    }
+    .pointerRight {
+        display: none;
+    }
+    .smallLineLeft{
+        display: none;
+    }
+    .smallLineRight {
+        display: none;
+    }
+    .content h2{
+        margin: 0px ;
+    }
+    
+    .content {
+        width:100%;
+        text-align: center;
+        position: static;
+        padding: 15px 0px;
+        height: 166px;
+        
+      }
+      .timeline {
+        width: 100%;
+      }
+      .timeline-item {
+        padding: 5px;
+      }
+      .timeline-container {
+        width: 100%;
+        margin: 0px;
+    
+      }
+      .centerLine {
+        display: none;
+      }
+      .oneCard{
+        width: 100%;
+      }
+      .contactContainer {
+        flex-direction: column-reverse; 
+        padding: 20px; 
+      }
+    
+      .img {
+        width: 100%; 
+        margin-bottom: 20px; 
+      }
+    
+      .contact {
+        width: 100%; 
+      }
+    
+      .contact h1 {
+        font-size: 36px; 
+      }
+    
+      .form-group input,
+      .form-group textarea {
+        font-size: 14px; 
+      }
+    
+      button {
+        width: 100%; 
+        margin-left: 0; 
+      }
+      .name {
+        font-size: 36px; /* Smaller heading size on mobile */
+        padding-top: 30px; /* Adjust padding for mobile */
+    }
+
+    .cardContainer {
+        width: 100%; /* Full width on mobile */
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center align cards */
+        gap: 30px; /* Adjust gap for smaller screens */
+    }
+
+    .oneCard {
+        width: 90%; /* Make cards responsive */
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .oneCard img {
+        height: 200px; /* Adjust height for mobile */
+    }
+
+    .project-button-link {
+        width: 100%; /* Button takes full width */
+        padding: 10px; /* Adjust padding */
+    }
+}

@@ -1,0 +1,119 @@
+.aboutContainer{
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  justify-content: space-between;
+}
+.buttonsContainer a {
+  text-decoration: none;
+  color: white;
+}
+
+.linksContainer {
+  display: flex;
+  gap: 10px;
+
+}
+.linksContainer ul {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding : 10px;
+  border: 1px solid white;
+  
+  border-radius: 50px;
+}
+.linksContainer ul:hover{
+  color:  var(--hover-color);
+  cursor: pointer;
+  border: 1px solid  var(--hover-color);
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 20px;
+}
+.hireMe {
+  padding: 10px 30px ;
+  border-radius: 10px;
+  background-color: var(--button-color);;
+}
+.downloadCV {
+  padding: 10px 30px ;
+  border-radius: 10px;
+  background-color: var(--button-color);
+}
+.downloadCV a{
+  text-decoration: none;
+  color: white
+}
+.profileImage {
+  height: 90%;
+  margin-right: 50px;
+}
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  height: 100%;
+}
+.role {
+  font-size: 60px; 
+  margin-top: 10px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(19, 124, 124), rgb(70, 179, 179), rgb(0, 84, 84));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hi {
+font-size: 30px;
+margin:0px;
+/* color: rgba(255, 255, 255, 0.3); */
+color: whitesmoke;
+padding-bottom: 10px;
+}
+.fullName {
+  font-size: 30px;
+  /* color: rgba(255, 255, 255, 0.3); */
+  color: whitesmoke;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+.linksContainer a{
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width:500px) {
+  .aboutContainer{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .detailsContainer{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  .linksContainer{
+    justify-content: center;
+  }
+  .buttonsContainer{
+    justify-content: center;
+  }
+
+  .profileImage{
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+

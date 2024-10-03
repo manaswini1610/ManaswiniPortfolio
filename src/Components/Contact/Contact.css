@@ -1,0 +1,83 @@
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(9, 37, 39, 0.1);
+}
+
+.img {
+  width: 45%;
+}
+
+.img img {
+  width: 100%;
+  height: 10%;
+}
+
+.contact {
+  width: 50%;
+}
+
+.contact h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, rgb(19, 124, 124), rgb(70, 179, 179), rgb(0, 84, 84));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #3f4549;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgb(211, 216, 216);
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button {
+  margin-left: 4px;
+  width: 30%;
+  padding: 12px 0px; 
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #144255;
+}
+
+.form-group input::placeholder {
+  color: rgb(8, 5, 5);
+
+}
+
